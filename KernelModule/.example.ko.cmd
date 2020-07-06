@@ -1,0 +1,1 @@
+cmd_/home/slava/KernelModule/example.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/slava/KernelModule/example.ko /home/slava/KernelModule/example.o /home/slava/KernelModule/example.mod.o ;  true
